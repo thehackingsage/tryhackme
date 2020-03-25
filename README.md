@@ -1,1 +1,3 @@
-# <img align="left" width="89" height="50" src="https://github.com/thehackingsage/TryHackMe/blob/master/TryHackMe.png"> Try Hack Me | https://tryhackme.com
+# Try Hack Me | https://tryhackme.com
+
+<img align="left" width="550" hight="308" src="https://github.com/thehackingsage/TryHackMe/blob/master/TryHackMe.png?raw=true">
