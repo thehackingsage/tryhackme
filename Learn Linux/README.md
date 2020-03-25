@@ -118,5 +118,6 @@
 
 1 - Finish this room off! What is the root.txt flag : `ad91979868d06e19d8e8a9c28be56e0c`
 
-<img src="https://github.com/thehackingsage/TryHackMe/blob/master/Learn%20Linux/find_user.png/>
-<img src="https://github.com/thehackingsage/TryHackMe/blob/master/Learn%20Linux/flag.png/>
+<img src="https://github.com/thehackingsage/TryHackMe/blob/master/Learn%20Linux/find_user.png"/>
+
+<img src="https://github.com/thehackingsage/TryHackMe/blob/master/Learn%20Linux/flag.png"/>
