@@ -26,7 +26,7 @@
 
 1 - What's the password for shiba2 : `pinguftw`
 
-<img src="https://github.com/thehackingsage/TryHackMe/Learn-Linux/blob/master/shiba2.png?raw=true"/>
+<img src="https://github.com/thehackingsage/TryHackMe/Learn Linux/blob/master/shiba2.png?raw=true"/>
 
 ### [Task 12] su
 
@@ -46,7 +46,7 @@
 
 1 - What is shiba3's password : `happynootnoises`
 
-<img src="https://github.com/thehackingsage/TryHackMe/Learn-Linux/blob/master/shiba3.png?raw=true"/>
+<img src="https://github.com/thehackingsage/TryHackMe/Learn Linux/blob/master/shiba3.png?raw=true"/>
 
 ### [Task 24] [Section 5: Advanced File Operations]: chmod
 
@@ -100,7 +100,7 @@
 
 1 - What is shiba4's password : `test1234`
 
-<img src="https://github.com/thehackingsage/TryHackMe/Learn-Linux/blob/master/shiba4.png?raw=true"/>
+<img src="https://github.com/thehackingsage/TryHackMe/Learn Linux/blob/master/shiba4.png?raw=true"/>
 
 ### [Task 35] [Section 6: Miscellaneous]: sudo 
 
@@ -118,5 +118,5 @@
 
 1 - Finish this room off! What is the root.txt flag : `ad91979868d06e19d8e8a9c28be56e0c`
 
-<img src="https://github.com/thehackingsage/TryHackMe/Learn-Linux/blob/master/find_user.png?raw=true"/>
-<img src="https://github.com/thehackingsage/TryHackMe/Learn-Linux/blob/master/flag.png?raw=true"/>
+<img src="https://github.com/thehackingsage/TryHackMe/Learn Linux/blob/master/find_user.png?raw=true"/>
+<img src="https://github.com/thehackingsage/TryHackMe/Learn Linux/blob/master/flag.png?raw=true"/>
