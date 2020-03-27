@@ -100,6 +100,8 @@
 
 1 - What is shiba4's password : `test1234`
 
+<img src="https://github.com/thehackingsage/TryHackMe/blob/master/Learn%20Linux/find-shiba4.png"/>
+
 <img src="https://github.com/thehackingsage/TryHackMe/blob/master/Learn%20Linux/shiba4.png"/>
 
 ### [Task 35] [Section 6: Miscellaneous]: sudo 
@@ -119,5 +121,7 @@
 1 - Finish this room off! What is the root.txt flag : `ad91979868d06e19d8e8a9c28be56e0c`
 
 <img src="https://github.com/thehackingsage/TryHackMe/blob/master/Learn%20Linux/find_user.png"/>
+
+<img src="https://github.com/thehackingsage/TryHackMe/blob/master/Learn%20Linux/test1234.png"/>
 
 <img src="https://github.com/thehackingsage/TryHackMe/blob/master/Learn%20Linux/flag.png"/>
