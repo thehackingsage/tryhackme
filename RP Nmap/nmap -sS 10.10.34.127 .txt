@@ -1,0 +1,9 @@
+nmap -sS 10.10.34.127 
+
+Starting Nmap 7.80 ( https://nmap.org/ ) at 2020-03-21 13:36 IST
+Nmap scan report for 10.10.34.127
+Host is up (0.24s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http

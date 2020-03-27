@@ -1,0 +1,26 @@
+ssh -p 2222 mitch@10.10.99.100
+The authenticity of host '[10.10.99.100]:2222 ([10.10.99.100]:2222)' can't be established.
+ECDSA key fingerprint is SHA256:Fce5J4GBLgx1+iaSMBjO+NFKOjZvL5LOVF5/jc0kwt8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '[10.10.99.100]:2222' (ECDSA) to the list of known hosts.
+mitch@10.10.99.100's password: 
+Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.15.0-58-generic i686)
+
+ * Documentation:  https://help.ubuntu.com/
+ * Management:     https://landscape.canonical.com/
+ * Support:        https://ubuntu.com/advantage
+
+0 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Aug 19 18:13:41 2019 from 192.168.0.190
+$ ls
+user.txt
+$ cat user.txt
+G00d j0b, keep up!
+$ cd ..
+$ ls
+mitch  sunbath
+$ sudo -l 
+User mitch may run the following commands on Machine:
+    (root) NOPASSWD: /usr/bin/vim

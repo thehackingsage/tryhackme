@@ -1,0 +1,8 @@
+nmap -p 1000 10.10.99.100 
+
+Starting Nmap 7.80 ( https://nmap.org/ ) at 2020-03-21 15:26 IST
+Nmap scan report for 10.10.99.100
+Host is up (0.22s latency).
+
+PORT     STATE    SERVICE
+1000/tcp filtered cadlock

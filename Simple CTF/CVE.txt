@@ -1,0 +1,5 @@
+CMS Made Simple < 2.2.10 - SQL Injection 
+
+CVE: 2019-9053
+
+https://www.exploit-db.com/exploits/46635

@@ -1,0 +1,24 @@
+nmap -p 80 -A -v 10.10.99.100
+
+Starting Nmap 7.80 ( https://nmap.org/ ) at 2020-03-21 15:36 IST
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+| http-methods: 
+|  Supported Methods: POST OPTIONS GET HEAD
+| http-robots.txt: 2 disallowed entries 
+|/ /openemr-5_0_1_3 
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Apache2 Ubuntu Default Page: It works
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.10 - 3.13 (92%), Crestron XPanel control system (90%), ASUS RT-N56U WAP (Linux 3.4) (87%), Linux 3.1 (87%), Linux 3.16 (87%), Linux 3.2 (87%), HP P2000 G3 NAS device (87%), AXIS 210A or 211 Network Camera (Linux 2.6.17) (87%), Adtran 424RG FTTH gateway (86%), Linux 2.6.32 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 11.537 days (since Tue Mar 10 02:42:47 2020)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+1   226.68 ms 10.9.0.1
+2   226.99 ms 10.10.99.100

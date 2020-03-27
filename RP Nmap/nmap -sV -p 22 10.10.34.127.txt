@@ -1,0 +1,9 @@
+nmap -sV -p 22 10.10.34.127
+
+Starting Nmap 7.80 ( https://nmap.org/ ) at 2020-03-21 13:37 IST
+Nmap scan report for 10.10.34.127
+Host is up (0.22s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.10 (Ubuntu Linux; protocol 2.0)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
