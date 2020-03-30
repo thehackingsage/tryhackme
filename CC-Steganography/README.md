@@ -90,8 +90,8 @@ And that's it!
 
 Good luck and have fun!
 
-#1	What is key 1? : ***********
+#1	What is key 1? : ```superkeykey```
 
-#2	What is key 2? : ********
+#2	What is key 2? : ```fatality```
 
-#3	What is key 3? : ********
+#3	What is key 3? : ```killshot```
