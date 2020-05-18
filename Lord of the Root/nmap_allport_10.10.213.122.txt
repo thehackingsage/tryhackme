@@ -1,0 +1,15 @@
+# Nmap 7.80 scan initiated Sun Mar 22 17:16:17 2020 as: nmap -sS -p- -vv --script vuln -oN nmap_allport_10.10.213.122.txt 10.10.213.122
+Increasing send delay for 10.10.213.122 from 0 to 5 due to 880 out of 2932 dropped probes since last increase.
+Nmap scan report for 10.10.213.122
+Host is up, received echo-reply ttl 63 (0.21s latency).
+Scanned at 2020-03-22 17:16:27 IST for 1180s
+Not shown: 65533 closed ports
+Reason: 65533 resets
+PORT     STATE SERVICE REASON
+22/tcp   open  ssh     syn-ack ttl 63
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+1337/tcp open  waste   syn-ack ttl 63
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Mar 22 17:36:07 2020 -- 1 IP address (1 host up) scanned in 1190.68 seconds
