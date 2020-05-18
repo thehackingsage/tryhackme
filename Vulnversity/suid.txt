@@ -1,0 +1,8 @@
+./bin/su
+./bin/ntfs-3g
+./bin/mount
+./bin/ping6
+./bin/umount
+./bin/systemctl
+./bin/ping
+./bin/fusermount

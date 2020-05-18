@@ -1,0 +1,24 @@
+gobuster dir -u http://10.10.15.205:3333/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt          1 ↵
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@FireFart)
+===============================================================
+[+] Url:            http://10.10.15.205:3333/
+[+] Threads:        10
+[+] Wordlist:       /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Timeout:        10s
+===============================================================
+2020/03/21 16:45:52 Starting gobuster
+===============================================================
+/images (Status: 301)
+/css (Status: 301)
+/js (Status: 301)
+/fonts (Status: 301)
+/internal (Status: 301)
+Progress: 5298 / 220561 (2.40%)^C
+[!] Keyboard interrupt detected, terminating.
+===============================================================
+2020/03/21 16:47:55 Finished
+===============================================================

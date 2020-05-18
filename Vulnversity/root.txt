@@ -1,0 +1,7 @@
+root@vulnuniversity:/root# ls
+ls
+root.txt
+root@vulnuniversity:/root# cat root.txt
+cat root.txt
+a58ff8579f0a9270368d33a9966c7fd5
+root@vulnuniversity:/root#
