@@ -1,0 +1,33 @@
+ssh falconfeast@10.10.43.97                           
+The authenticity of host '10.10.43.97 (10.10.43.97)' can't be established.
+ECDSA key fingerprint is SHA256:VRi7CZbTMsqjwnWmH2UVPWrLVIZzG4BQ9J6X+tVsuEQ.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '10.10.43.97' (ECDSA) to the list of known hosts.
+falconfeast@10.10.43.97's password: 
+Welcome to Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-74-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Mon May 25 14:03:07 IST 2020
+
+  System load:  0.0               Processes:           84
+  Usage of /:   34.8% of 9.78GB   Users logged in:     0
+  Memory usage: 65%               IP address for eth0: 10.10.43.97
+  Swap usage:   0%
+
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+3 packages can be updated.
+3 updates are security updates.
+
+
+Last login: Thu Jan 23 18:41:39 2020 from 192.168.1.107
+falconfeast@inclusion:~$ ls
+articles  user.txt
+falconfeast@inclusion:~$ cat user.txt 
+60989655118397345799

