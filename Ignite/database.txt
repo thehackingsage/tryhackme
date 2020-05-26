@@ -1,0 +1,1 @@
+cat /var/www/html/fuel/application/config/database.php
