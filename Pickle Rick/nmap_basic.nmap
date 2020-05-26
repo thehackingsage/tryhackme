@@ -1,0 +1,37 @@
+# Nmap 7.80 scan initiated Mon May 25 17:19:46 2020 as: nmap -sCSV -A -O -oN nmap_basic.nmap -Pn 10.10.183.2
+Nmap scan report for 10.10.183.2
+Host is up (0.19s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.6 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 2a:05:08:61:53:b5:9e:c6:5f:6c:a1:79:a1:43:51:fb (RSA)
+|   256 87:48:b9:16:c9:2b:7f:27:19:33:cd:f4:55:6b:bb:54 (ECDSA)
+|_  256 4b:95:e8:85:15:f5:60:f9:fa:3e:fe:3b:81:f6:81:93 (ED25519)
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Rick is sup4r cool
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=5/25%OT=22%CT=1%CU=37502%PV=Y%DS=2%DC=T%G=Y%TM=5ECBB12
+OS:9%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=103%TI=Z%CI=I%II=I%TS=8)SEQ
+OS:(SP=103%GCD=1%ISR=103%TI=Z%CI=I%TS=8)SEQ(SP=103%GCD=1%ISR=103%TI=Z%II=I%
+OS:TS=8)OPS(O1=M508ST11NW7%O2=M508ST11NW7%O3=M508NNT11NW7%O4=M508ST11NW7%O5
+OS:=M508ST11NW7%O6=M508ST11)WIN(W1=68DF%W2=68DF%W3=68DF%W4=68DF%W5=68DF%W6=
+OS:68DF)ECN(R=Y%DF=Y%T=40%W=6903%O=M508NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%
+OS:A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0
+OS:%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S
+OS:=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R
+OS:=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N
+OS:%T=40%CD=S)
+
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 30951/tcp)
+HOP RTT       ADDRESS
+1   193.81 ms 10.9.0.1
+2   199.25 ms 10.10.183.2
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon May 25 17:21:05 2020 -- 1 IP address (1 host up) scanned in 79.26 seconds

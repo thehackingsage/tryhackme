@@ -1,0 +1,26 @@
+╭─root@kali ~/TryHackMe/Rooms/Pickle_Rick ‹master*› 
+╰─# gobuster dir -u 10.10.183.2 -w /usr/share/dirb/wordlists/common.txt 
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.183.2
+[+] Threads:        10
+[+] Wordlist:       /usr/share/dirb/wordlists/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Timeout:        10s
+===============================================================
+2020/05/25 17:22:02 Starting gobuster
+===============================================================
+/.hta (Status: 403)
+/.htpasswd (Status: 403)
+/.htaccess (Status: 403)
+/assets (Status: 301)
+/index.html (Status: 200)
+/robots.txt (Status: 200)
+/server-status (Status: 403)
+===============================================================
+2020/05/25 17:23:46 Finished
+===============================================================
+
