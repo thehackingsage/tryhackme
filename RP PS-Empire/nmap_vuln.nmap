@@ -1,0 +1,51 @@
+# Nmap 7.80 scan initiated Fri May 29 01:17:59 2020 as: nmap --script vuln -oN nmap_vuln.nmap 10.10.64.241
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+Nmap scan report for 10.10.64.241
+Host is up (0.22s latency).
+Not shown: 991 closed ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+139/tcp   open  netbios-ssn
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+445/tcp   open  microsoft-ds
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+3389/tcp  open  ms-wbt-server
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+|_sslv2-drown: 
+49152/tcp open  unknown
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+49153/tcp open  unknown
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+49154/tcp open  unknown
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+49158/tcp open  unknown
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+49160/tcp open  unknown
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+
+Host script results:
+|_samba-vuln-cve-2012-1182: NT_STATUS_ACCESS_DENIED
+|_smb-vuln-ms10-054: false
+|_smb-vuln-ms10-061: NT_STATUS_ACCESS_DENIED
+| smb-vuln-ms17-010: 
+|   VULNERABLE:
+|   Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010)
+|     State: VULNERABLE
+|     IDs:  CVE:CVE-2017-0143
+|     Risk factor: HIGH
+|       A critical remote code execution vulnerability exists in Microsoft SMBv1
+|        servers (ms17-010).
+|           
+|     Disclosure date: 2017-03-14
+|     References:
+|       https://technet.microsoft.com/en-us/library/security/ms17-010.aspx
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-0143
+|_      https://blogs.technet.microsoft.com/msrc/2017/05/12/customer-guidance-for-wannacrypt-attacks/
+
+# Nmap done at Fri May 29 01:20:06 2020 -- 1 IP address (1 host up) scanned in 127.00 seconds
