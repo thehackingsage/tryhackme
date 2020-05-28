@@ -1,0 +1,2 @@
+/usr/share/john/ssh2john.py id_rsa 
+id_rsa has no password!
