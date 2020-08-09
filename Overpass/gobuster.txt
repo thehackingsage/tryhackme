@@ -1,0 +1,6 @@
+301 - /admin
+301 - /aboutus
+301 - /css
+301 - /downloads
+301 - /img
+301 - /index.html
