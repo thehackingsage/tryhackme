@@ -80,11 +80,22 @@
  
 ## [Day 9] Networking Anyone can be Santa!
  
-- Question #1: Name the directory on the FTP server that has data accessible by the "anonymous" user : `public`
+- Name the directory on the FTP server that has data accessible by the "anonymous" user : `public`
 
-- Question #2: What script gets executed within this directory? : `backup.sh`
+- What script gets executed within this directory? : `backup.sh`
 
-- Question #3: What movie did Santa have on his Christmas shopping list? : `The Polar Express`
+- What movie did Santa have on his Christmas shopping list? : `The Polar Express`
 
-- Question #4: Re-upload this script to contain malicious data (just like we did in section 9.6. Output the contents of /root/flag.txt! : `THM{even_you_can_be_santa}`
+- Re-upload this script to contain malicious data (just like we did in section 9.6. Output the contents of /root/flag.txt! : `THM{even_you_can_be_santa}`
+
+## [Day 10] Networking Don't be sElfish!
+
+- Using enum4linux, how many users are there on the Samba server (10.10.236.5)? : `3`
+
+- Now how many "shares" are there on the Samba server? : `4`
+
+- Use smbclient to try to login to the shares on the Samba server (10.10.236.5). What share doesn't require a password? : `tbfc-santa`
+
+- Log in to this share, what directory did ElfMcSkidy leave for Santa? : `jingle-tune`
+
 
