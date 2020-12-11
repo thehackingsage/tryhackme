@@ -98,4 +98,10 @@
 
 - Log in to this share, what directory did ElfMcSkidy leave for Santa? : `jingle-tune`
 
+## [Day 11] Networking The Rogue Gnome
 
+- What type of privilege escalation involves using a user account to execute commands as an administrator? : `Vertical`
+
+- What is the name of the file that contains a list of users who are a part of the sudo group? : `sudoers`
+
+- What are the contents of the file located at /root/flag.txt? : `thm{2fb10afe933296592}`
