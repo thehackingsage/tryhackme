@@ -105,3 +105,27 @@
 - What is the name of the file that contains a list of users who are a part of the sudo group? : `sudoers`
 
 - What are the contents of the file located at /root/flag.txt? : `thm{2fb10afe933296592}`
+
+## [Day 12] Networking Ready, set, elf.
+
+- What is the version number of the web server? : `9.0.17`
+
+- What CVE can be used to create a Meterpreter entry onto the machine? (Format: CVE-XXXX-XXXX) : `CVE-2019-0232`
+
+- What are the contents of flag1.txt : `thm{whacking_all_the_elves}`
+
+##  [Day 13] Special by John Hammond Coal for Christmas
+
+- What old, deprecated protocol and service is running? - `telnet`
+
+- What credential was left for you? : `clauschristmas`
+
+- What distribution of Linux and version number is this server running? : `Ubuntu 12.04`
+
+- Who got here first? : `grinch`
+
+- What is the verbatim syntax you can use to compile, taken from the real C source code comments? : `gcc -pthread dirty.c -o dirty -lcrypt`
+
+- What "new" username was created, with the default operations of the real C source code? : `firefart`
+
+- What is the MD5 hash output? : `8b16f00dd3b51efadb02c1df7f8427cc`
