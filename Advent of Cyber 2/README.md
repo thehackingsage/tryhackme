@@ -129,3 +129,29 @@
 - What "new" username was created, with the default operations of the real C source code? : `firefart`
 
 - What is the MD5 hash output? : `8b16f00dd3b51efadb02c1df7f8427cc`
+
+## [Day 14] Special by TheCyberMentor Where's Rudolph?
+
+- What URL will take me directly to Rudolph's Reddit comment history? : `https://www.reddit.com/user/IGuidetheClaus2020/comments/`
+
+- According to Rudolph, where was he born? : `chicago`
+
+- Rudolph mentions Robert.  Can you use Google to tell me Robert's last name? : `may`
+
+- On what other social media platform might Rudolph have an account? : `twitter`
+
+- What is Rudolph's username on that platform? : `IGuideClaus2020`
+
+- What appears to be Rudolph's favorite TV show right now? : `bachelorette`
+
+- Based on Rudolph's post history, he took part in a parade.  Where did the parade take place? : `chicago`
+
+- Okay, you found the city, but where specifically was one of the photos taken? : `41.891815, -87.624277`
+
+- Did you find a flag too? : `{FLAG}ALWAYSCHECKTHEEXIFD4T4`
+
+- Has Rudolph been pwned? What password of his appeared in a breach? : `spygame`
+
+- Based on all the information gathered.  It's likely that Rudolph is in the Windy City and is staying in a hotel on Magnificent Mile.  What are the street numbers of the hotel address? : `540`
+
+
