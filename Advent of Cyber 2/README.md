@@ -154,4 +154,26 @@
 
 - Based on all the information gathered.  It's likely that Rudolph is in the Windy City and is staying in a hotel on Magnificent Mile.  What are the street numbers of the hotel address? : `540`
 
+## [Day 15] Scripting There's a Python in my stocking!
 
+- What's the output of True + True? : `2`
+
+- What's the database for installing other peoples libraries called? : `PyPi`
+
+- What is the output of bool("False")? : `True`
+
+- What library lets us download the HTML of a webpage? : `Requests`
+
+- What is the output of the program provided in "Code to analyse for Question 5" in today's material? : `[1, 2, 3, 6]`
+
+- What causes the previous task to output that? : `Pass by reference`
+
+## [Day 16] Scripting Help! Where is Santa?
+
+- What is the port number for the web server? : `8000`
+
+- Without using enumerations tools such as Dirbuster, what is the directory for the API?  (without the API key) : `/api/`
+
+- Where is Santa right now? : `Winter wonderland, Hyde Park, London`
+
+- Find out the correct API key. Remember, this is an odd number between 0-100. After too many attempts, Santa's Sled will block you. : `57`
