@@ -177,3 +177,11 @@
 - Where is Santa right now? : `Winter wonderland, Hyde Park, London`
 
 - Find out the correct API key. Remember, this is an odd number between 0-100. After too many attempts, Santa's Sled will block you. : `57`
+
+## [Day 17] Reverse Engineering ReverseELFneering
+
+- What is the value of local_ch when its corresponding movl instruction is called (first if multiple)? : `1`
+
+- What is the value of eax when the imull instruction is called? - `6`
+
+- What is the value of local_4h before eax is set to 0? - `6`
