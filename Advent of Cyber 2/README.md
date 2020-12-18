@@ -185,3 +185,10 @@
 - What is the value of eax when the imull instruction is called? : `6`
 
 - What is the value of local_4h before eax is set to 0? : `6`
+
+## [Day 18] Reverse Engineering The Bits of Christmas
+
+- What is Santa's password? : `santapassword321`
+
+- Now that you've retrieved this password, try to login...What is the flag? : `thm{046af}`
+
