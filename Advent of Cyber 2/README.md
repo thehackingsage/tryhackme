@@ -192,3 +192,8 @@
 
 - Now that you've retrieved this password, try to login...What is the flag? : `thm{046af}`
 
+## [Day 19] Special by Tib3rius The Naughty or Nice List
+
+- What is Santa's password? : `be good for goodness sake!`
+
+- What is the challenge flag? : `THM{EVERYONE_GETS_PRESENTS}`
