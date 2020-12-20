@@ -197,3 +197,18 @@
 - What is Santa's password? : `be good for goodness sake!`
 
 - What is the challenge flag? : `THM{EVERYONE_GETS_PRESENTS}`
+
+## [Day 20] Blue Teaming PowershELlF to the rescue
+
+- Search for the first hidden elf file within the Documents folder. Read the contents of this file. What does Elf 1 want? : `2 front teeth`
+
+- Search on the desktop for a hidden folder that contains the file for Elf 2. Read the contents of this file. What is the name of that movie that Elf 2 wants? : `scrooged`
+
+- Search the Windows directory for a hidden folder that contains files for Elf 3. What is the name of the hidden folder? (This command will take a while) : `3lfthr3e`
+
+- How many words does the first file contain? : `9999`
+
+- What 2 words are at index 551 and 6991 in the first file? : `Red Ryder`
+
+- This is only half the answer. Search in the 2nd file for the phrase from the previous question to get the full answer. What does Elf 3 want? (use spaces when submitting the answer) : `red ryder bb gun`
+
