@@ -212,3 +212,12 @@
 
 - This is only half the answer. Search in the 2nd file for the phrase from the previous question to get the full answer. What does Elf 3 want? (use spaces when submitting the answer) : `red ryder bb gun`
 
+## [Day 21] Blue Teaming Time for some ELForensics
+
+- Read the contents of the text file within the Documents folder. What is the file hash for db.exe? : `596690FFC54A86101932856E6A78E3A1`
+
+- What is the file hash of the mysterious executable within the Documents folder? : `5F0375O1FB542AD2D9B06EB12AED09F0`
+
+- Using Strings find the hidden flag within the executable? : `THM{f6187e6cbeb1214139ef313e108cb6f9}`
+
+- What is the flag that is displayed when you run the database connector file? : `THM{088731ddc7b9fdeccaed982b07c297c}`
