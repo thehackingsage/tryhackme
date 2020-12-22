@@ -221,3 +221,15 @@
 - Using Strings find the hidden flag within the executable? : `THM{f6187e6cbeb1214139ef313e108cb6f9}`
 
 - What is the flag that is displayed when you run the database connector file? : `THM{088731ddc7b9fdeccaed982b07c297c}`
+
+## [Day 22] Blue Teaming Elf McEager becomes CyberElf
+ 
+- What is the password to the KeePass database? : `thegrinchwashere`
+ 
+- What is the encoding method listed as the 'Matching ops'? : `base64`
+
+- What is the decoded password value of the Elf Server? : `sn0wM4n!`
+
+- What is the decoded password value for ElfMail? : `ic3Skating`
+
+- Decode the last encoded value. What is the flag? : `THM{657012dcf3d1318dca0ed864f0e70535}`
