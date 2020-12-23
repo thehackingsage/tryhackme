@@ -233,3 +233,19 @@
 - What is the decoded password value for ElfMail? : `ic3Skating`
 
 - Decode the last encoded value. What is the flag? : `THM{657012dcf3d1318dca0ed864f0e70535}`
+
+## [Day 23] Blue Teaming The Grinch strikes again!
+
+- Decrypt the fake 'bitcoin address' within the ransom note. What is the plain text value? : `nomorebestfestivalcompany`
+
+- At times ransomware changes the file extensions of the encrypted files. What is the file extension for each of the encrypted files? : `.grinch`
+
+- What is the name of the suspicious scheduled task? : `opidsfsdf`
+
+- Inspect the properties of the scheduled task. What is the location of the executable that is run at login? : `C:\Users\Administrator\Desktop\opidsfsdf.exe`
+
+- There is another scheduled task that is related to VSS. What is the ShadowCopyVolume ID? : `7a9eea15-0000-0000-0000-010000000000`
+
+- Assign the hidden partition a letter. What is the name of the hidden folder? : `confidential`
+
+- Right-click and inspect the properties for the hidden folder. Use the 'Previous Versions' tab to restore the encrypted file that is within this hidden folder to the previous version. What is the password within the file? : `m33pa55w0rdIZseecure!`
