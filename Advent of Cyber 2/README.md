@@ -249,3 +249,31 @@
 - Assign the hidden partition a letter. What is the name of the hidden folder? : `confidential`
 
 - Right-click and inspect the properties for the hidden folder. Use the 'Previous Versions' tab to restore the encrypted file that is within this hidden folder to the previous version. What is the password within the file? : `m33pa55w0rdIZseecure!`
+
+##  [Day 24] Special by DarkStar The Trial Before Christmas
+
+- Scan the machine. What ports are open? : `80, 65000`
+
+- What's the title of the hidden website? It's worthwhile looking recursively at all websites on the box for this step. : `Light Cycle`
+
+- What is the name of the hidden php page? : `uploads.php`
+
+- What is the name of the hidden directory where file uploads are saved? : `grid`
+
+- What is the value of the web.txt flag? : `THM{ENTER_THE_GRID}`
+
+- Review the configuration files for the webserver to find some useful loot in the form of credentials. What credentials do you find? username:password : `tron:IFightForTheUsers`
+
+- Access the database and discover the encrypted credentials. What is the name of the database you find these in? : `tron`
+
+- Crack the password. What is it? : `@computer@`
+
+- What is the value of the user.txt flag? : `THM{IDENTITY_DISC_RECOGNISED}`
+
+- Check the user's groups. Which group can be leveraged to escalate privileges? : `lxd`
+
+- What is the value of the root.txt flag? : `THM{FLYNN_LIVES}`
+
+## Thank you!
+
+- Please help us improve by answer this 5 minute survey! https://forms.gle/iixyNWzyZupumsPN7  : `thm{thank_you_2020}`
